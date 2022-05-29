@@ -33,4 +33,4 @@ run-debug: iso
 	qemu-system-i386 -hda ./toyos.iso -d int -no-reboot -no-shutdown
 
 clean:
-	rm -rf ./bin/toyos.bin ./build/kernel.o ./build/boot.o $(FILES)
+	rm -rf ./toyos.bin ./toyos.iso ./bin/toyos.bin ./build/kernel.o ./build/boot.o $(FILES)
